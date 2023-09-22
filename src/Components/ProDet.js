@@ -5,7 +5,7 @@ const ProDet = () =>
 {
     var [ proDetail, getProDetail ] = useState( [] ),
         { id } = useParams(),
-        api_URL ='https://localhost:44358/api/ECommerce/'
+        api_URL ='http://m3atyecommerce-001-site1.gtempurl.com/api/ECommerce/'
     if (id) 
     {
         // eslint-disable-next-line react-hooks/rules-of-hooks

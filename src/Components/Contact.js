@@ -15,7 +15,7 @@ const Contact = () =>
         validLname = document.getElementById( 'Msg-Lname-Error' ),
         validEmail = document.getElementById( 'Msg-email-Error' ),
         validMsg = document.getElementById( 'Msg-Error' ),
-        api_URL = 'https://localhost:44358/api/ECommerce/';
+        api_URL = 'http://m3atyecommerce-001-site1.gtempurl.com/api/ECommerce/';
     
     const userSchema = yup.object().shape( {
         Fname: yup.string().required(),

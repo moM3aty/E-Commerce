@@ -18,7 +18,7 @@ const Products = () =>
         [ description, setDesc ] = useState( "" ), 
         [ search, setSearch ] = useState( "" ),
         [ allProducts, setAllProducts ] = useState([]),
-        api_URL = 'https://localhost:44358/api/ECommerce/';
+        api_URL = 'http://m3atyecommerce-001-site1.gtempurl.com/api/ECommerce/';
     
     function validateForm ()
     {
