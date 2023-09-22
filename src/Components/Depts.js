@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 const Depts = () =>
 {
     var [ depts, setDepts ] = useState( [] );
-    var api_URL ='https://localhost:44358/api/ECommerce/'
+    var api_URL ='http://m3atyecommerce-001-site1.gtempurl.com/api/ECommerce/'
     useEffect(() => {
     
         fetch( api_URL + 'GetAllDepts' )
