@@ -1483,7 +1483,10 @@ blockquote {
     display: block !important;
   }
   .Pro-div:hover{
-    height: 450px !important;
+    margin-bottom: 21% !important;
+  }
+  .Pro-div .Control-Pro a{
+    margin-top: 3% !important;
   }
   .product-Details{
     font-size: 18px;
