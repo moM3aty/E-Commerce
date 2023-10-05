@@ -20,7 +20,13 @@ const ProDet = () =>
         
     };
     var listProDetails = proDetail.map( ( item ) => (
-        < >
+        <div className="direction">
+            <div className="col-md-4 text-center drag-lg-top">
+                <div className="shadow-down mb-4">
+                    <img src={item.photo} alt={item.name} className="img-fluid w-100 rounded-lg border-thick border-white" />
+                </div>
+                <h4>{item.name}</h4>
+            </div>
             <div key={item.id} className="col-md-8">
                 <p className='card-Details'>
                     <span>Details : </span>
@@ -34,14 +40,7 @@ const ProDet = () =>
                     <div>{ item.priceAfterDiscount } $</div>
                 </p>
             </div>
-            <div className="col-md-4 text-center drag-lg-top">
-                <div className="shadow-down mb-4">
-                    <img src={item.photo} alt={item.name} className="img-fluid w-100 rounded-lg border-thick border-white" />
-                </div>
-                <h4>{item.name}</h4>
-                
-            </div>
-        </>
+        </div>
     ))
     return (
         <div>

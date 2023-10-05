@@ -262,7 +262,9 @@ const Products = () =>
                     </div>
                     <div >
                         <div className='search col-12'>
-                            <input className="col-2 btn btn-send btn-search" onClick={ getProSearch } value="Search" type='submit' />
+                            <input className="col-2 btn btn-send btn-search btn-search-Text" onClick={ getProSearch } value="Search" type='submit' />
+                            <i className="fa-solid fa-magnifying-glass place"></i>
+                            <input className="col-2 btn btn-send btn-search btn-search-icon" onClick={ getProSearch } value="" type='submit' />
                             <input className="col-10 form-control i-search " value={search} onChange={ (e) => setSearch(e.target.value) } placeholder='Search . . .' type='text' />
                         </div>
                     </div>
