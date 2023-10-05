@@ -7,7 +7,7 @@ const Nav = () => {
         <header className="navigation fixed-top " >
             <nav className="navbar navbar-expand-lg navbar-dark" >
                 <NavLink className="navbar-brand font-tertiary h3" to={ '/' }>
-                    <img className="logo" src="/images/logo.png" />
+                    <img className="logo" src="images/logo.png" />
                 </NavLink>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
                 aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
