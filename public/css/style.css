@@ -1640,4 +1640,15 @@ blockquote {
     margin-bottom: 20% !important;
     height: 330px !important;
   }
+  .Pro-div:hover {
+    margin-bottom: 62% !important;
+    height: 200px !important;
+  }
+  .Pro-div:hover .Control-Pro a{
+        font-size: 250%;
+        padding: 20px 33px;
+  }
+  .img-Product{
+    height: 100% !important;
+  }
 }
