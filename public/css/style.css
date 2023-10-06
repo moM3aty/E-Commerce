@@ -1635,3 +1635,12 @@ blockquote {
     font-size: 275%;
   }
 }
+@media(max-width:500px){
+  .img-Product{
+    height: 60% !important;
+  }
+  .Pro-div{
+    height: 25rem !important;
+  }
+
+}
