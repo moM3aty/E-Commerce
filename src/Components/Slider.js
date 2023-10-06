@@ -38,10 +38,10 @@ const Slider = () => {
             <img src="/images/illustrations/leaf-cyan-2.png" alt="bg-shape" />
         </div>
         <ul className="list-unstyled ml-5 mt-3 position-relative zindex-1">
-            <li className="mb-3"><a style={{fontSize:'25px'}} className="text-white" href="https://M3ATY.com/"><i className="fa-brands fa-facebook"></i></a></li>
-            <li className="mb-3"><a style={{fontSize:'25px'}} className="text-white" href="https://M3ATY.com/"><i className="fa-brands fa-instagram"></i></a></li>
-            <li className="mb-3"><a style={{fontSize:'25px'}}  className="text-white" href="https://M3ATY.com/"><i className="fa-brands fa-whatsapp"></i></a></li>
-            <li className="mb-3"><a style={{fontSize:'25px'}} className="text-white" href="https://M3aty.com/"><i className="fa-brands fa-twitter"></i></a></li>
+            <li className="mb-3"><a style={{fontSize:'25px'}} className="text-white" href="https://www.facebook.com/mo.m3aty"><i className="fa-brands fa-facebook"></i></a></li>
+            <li className="mb-3"><a style={{fontSize:'25px'}} className="text-white" href="https://www.instagram.com/mohamed_abo_elm3aty/"><i className="fa-brands fa-instagram"></i></a></li>
+            <li className="mb-3"><a style={{fontSize:'25px'}}  className="text-white" href="https://wa.me/+201275844735"><i className="fa-brands fa-whatsapp"></i></a></li>
+            <li className="mb-3"><a style={{fontSize:'25px'}} className="text-white" href="https://github.com/moM3aty"><i className="fa-brands fa-github"></i></a></li>
             </ul>
             <div id="Content" ></div>
         </section>
