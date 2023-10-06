@@ -1408,6 +1408,12 @@ div:where(.swal2-container).swal2-center>.swal2-popup{
   .font-secondary {
     font-size: 110% !important;
   }
+  .product-Details{
+    font-size: 135% !important;
+  }
+  .Control-Pro{
+    margin-top: 4% !important;
+  }
 }
 
 blockquote {
