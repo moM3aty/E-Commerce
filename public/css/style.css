@@ -1648,7 +1648,10 @@ blockquote {
         font-size: 250%;
         padding: 20px 33px;
   }
-  .img-Product{
+  .Pro-div:hover .img-Product{
     height: 100% !important;
+  }
+  .Pro-div .img-Product{
+    height: 65% !important;
   }
 }
