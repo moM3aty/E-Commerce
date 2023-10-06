@@ -1636,11 +1636,8 @@ blockquote {
   }
 }
 @media(max-width:500px){
-  .img-Product{
-    height: 60% !important;
-  }
   .Pro-div{
-    height: 25rem !important;
+    margin-bottom: 20% !important;
+    height: 330px !important;
   }
-
 }
