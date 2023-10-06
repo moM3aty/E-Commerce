@@ -1637,21 +1637,27 @@ blockquote {
 }
 @media(max-width:500px){
   .Pro-div{
-    margin-bottom: 20% !important;
+    margin-bottom: 10% !important;
     height: 330px !important;
   }
   .Pro-div:hover {
-    margin-bottom: 62% !important;
-    height: 200px !important;
+    margin-bottom: 45% !important;
+    height: 250px !important;
+  }
+  .Pro-div .Control-Pro a{
+    margin-top: 16% !important ;
   }
   .Pro-div:hover .Control-Pro a{
-        font-size: 250%;
-        padding: 20px 33px;
+    font-size: 250%;
+    padding: 20px 33px;
   }
   .Pro-div:hover .img-Product{
     height: 100% !important;
   }
   .Pro-div .img-Product{
     height: 65% !important;
+  }
+  .product-Details{
+    font-size: 12px !important;
   }
 }
