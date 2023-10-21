@@ -1672,6 +1672,8 @@ blockquote {
     left:35%;
     top:40%;
     z-index:-1;
+    width:700px;
+    height:700px;
 }
 .loader {
   position: relative;
