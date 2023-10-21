@@ -1675,10 +1675,8 @@ blockquote {
 }
 .loader {
  position:absolute;
-  top:25%;
+  top:5%;
   left:40%;
-  width: 100%;
-  height: 745px;
   background-repeat: no-repeat;
   background-image: linear-gradient(#2d7f83, #006165),linear-gradient(#006165, #4ca3a8),linear-gradient(#4ca3a8, #006165);
   background-size: 80px 70px, 30px 50px, 30px 30px;
