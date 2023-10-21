@@ -1668,10 +1668,9 @@ blockquote {
   }
 }
 .load{
-    background-color: #FFF;
     position:absolute;
     left:35%;
-    top:20%;
+    top:40%;
     z-index:-1;
 }
 .loader {
