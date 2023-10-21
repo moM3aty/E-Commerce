@@ -1679,7 +1679,8 @@ blockquote {
   height: 100px;
   background-repeat: no-repeat;
   background-image: linear-gradient(#2d7f83, #006165),
-  linear-gradient(#006165, #4ca3a8), linear-gradient(#4ca3a8, #006165);
+  linear-gradient(#006165, #4ca3a8),
+  linear-gradient(#4ca3a8, #006165);
   background-size: 80px 70px, 30px 50px, 30px 30px;
   background-position: 0 0, 80px 20px, 100px 40px;
 }
@@ -1731,3 +1732,4 @@ blockquote {
     opacity: 0;
   }
 }
+
