@@ -1676,6 +1676,7 @@ blockquote {
     justify-content: center;
     align-items: center;
     margin: auto;
+    z-index:-1;
 }
 .loader {
   position: relative;
